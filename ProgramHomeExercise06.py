@@ -46,7 +46,7 @@ clone = temp_list.copy();
 clone.sort(reverse = True);
 print(clone);
 # Sort function is replacing the original list while sorted function creates a copy of the original list
-# Reversed function brings back iterator, A list function must be used to ring it back to list
+# Reversed function brings back iterator, A list function must be used to bring it back to a list
 
 # Exercise 3
 random_booleans: list[bool] = [random.choice([True, False]) for _ in range(3)];
@@ -71,7 +71,7 @@ print(random_nums);
 random_bool: list[bool] = [random.choice([True, False]) for _ in range(5)];
 print(random_bool);
 
-'''Defining a memory cell named _ is when you want to ignore certain values in a loop,indicate 
+'''Defining a memory cell named _ is when you want to ignore certain values in a loop, indicate 
    that a value is intentionally being ignored makes the code clearer.
    Other developers can immediately understand that the variable is not intended to be used.'''
 rand_numbers: list[int] = [random.randint(1, 100) for _ in range(10)];
