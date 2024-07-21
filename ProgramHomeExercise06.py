@@ -78,7 +78,7 @@ rand_numbers: list[int] = [random.randint(1, 100) for _ in range(10)];
 print(rand_numbers);
 greater_then_fifty: list[int] = [i for i in rand_numbers if i > 50];
 print(greater_then_fifty);
-bigger_numbers: list[int] = [i for i in (random.randint(1, 100) for _ in range(10)) if i > 50];
+bigger_numbers: list[int] = [i for i in [random.randint(1, 100) for _ in range(10)] if i > 50];
 print(bigger_numbers);
 
 user_string = input("Pleas enter a string: ").lower();
