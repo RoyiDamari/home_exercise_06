@@ -90,7 +90,7 @@ rand_nums: list[int] = [2, 4, 6, 8];
 index: any = None;
 while index not in {0, 1, 2, 3, -4, -3, -2, -1}:
     try:
-        index: any = int(input("Please enter a index: "));
+        index = int(input("Please enter a index: "));
         if index == -999:
             break
         else:
