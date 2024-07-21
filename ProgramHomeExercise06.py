@@ -96,7 +96,7 @@ while index not in {0, 1, 2, 3, -4, -3, -2, -1}:
         else:
             print("Index is", rand_nums[index]);
     except Exception as e:
-        print(f"Somthing went wrong ---{e}---...try again")
+        print(f"Something went wrong ---{e}---...try again")
 print('finish')
 
 
